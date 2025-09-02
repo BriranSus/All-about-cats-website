@@ -5,7 +5,7 @@ body {
     background-color: #cacaca;
 }
 
-.Navigation {
+.navigation {
     display: flex;
     gap: 2rem;
     justify-content: end;
@@ -16,29 +16,30 @@ body {
     position: sticky;
 }
 
-.Navigation a {
+.navigation a {
     text-decoration: none;
     color: white;
     font-weight: 500;
     padding-inline: 1rem;
 }
 
-.Navigation a:hover {
+.navigation a:hover {
     background-color: white;
     color: black;
     border-radius: 100px;
     transition: all 0.3s ease-in-out;
 }
 
-.Hero {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
 }
 
-.Hero img {
+.hero img {
     width: 100%;
     max-height: 500px;
     object-fit: cover;
@@ -46,40 +47,50 @@ body {
     opacity: 30%;
 }
 
-.Hero-text {
+.hero-text {
     position: absolute;
     justify-items: center;
     color: #ffffff;
 }
 
-.Hero-text h1 {
+.hero-text h1 {
     font-size: 6rem;
     margin: 0;
 }
 
-.Hero-text h2 {
+.hero-text h2 {
     font-size: 4rem;
     margin-bottom: 0;
     color: #F9CB99;
 }
 
-.Hero-text p {
+.hero-text p {
     font-size: 2rem;
     margin: 0;
     color: #F9CB99;
 }
 
-.Info {
+.info {
     padding-inline: 2rem;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(184, 184, 184);
 }
 
-.Content {
+.articles-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content {
     display: flex;
     flex-direction: column nowrap;
     gap: 4rem;
 }
 
-.Side-Content {
+.side-content {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -87,3 +98,45 @@ body {
     width: 30%;
 }
 
+.profile-img {
+    border: 4px solid rgb(114, 114, 114);
+}
+
+aside p {
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #363636;
+    margin-top: 4rem;
+}
+
+.social-media {
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+}
+
+.social-media li {
+    list-style: none;
+}
+
+.social-media li a {
+    font-size: 2rem;
+}
+
+.github {
+    color: white;
+    background-color: black;
+    padding: 3px;
+}
+
+.linkedin {
+    color: white;
+    background-color: #0077B5;
+    padding: 4px;
+}
