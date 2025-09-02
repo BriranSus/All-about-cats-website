@@ -69,3 +69,21 @@ body {
     color: #F9CB99;
 }
 
+.Info {
+    padding-inline: 2rem;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column nowrap;
+    gap: 4rem;
+}
+
+.Side-Content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-inline: 4rem;
+    width: 30%;
+}
+
